@@ -1,2 +1,2 @@
 # projek-github.io
-# Day 1/100 Learning
+ Day 1/100 Learning

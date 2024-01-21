@@ -1,0 +1,235 @@
+:root {
+	--primary: #111729;
+	--secondary: #20293A;
+	--gaktaugwe: #4A5567;
+	--textcolor: #CDD5E0;
+	--purple: #1D1B48;
+	--blue: #3662E3;
+	--apalah: #364153;
+}
+
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	border: none;
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body {
+ background-color: var(--secondary);
+ width: 100%;
+}
+
+
+
+.nav {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	
+}
+
+.Username-Search {
+	display: flex;
+	padding-top: 4rem ;
+	margin: 0;
+	position: absolute;
+	align-items: center;
+	top: 0;
+}
+
+#username {
+	width: 22rem;
+	height: 2.5rem;
+	background-color: var(--secondary);
+	color: var(--textcolor);
+	border-radius: 0.4rem;
+	padding: 0.3rem;
+	padding-left: 2.8rem;
+	display: block;
+}
+
+::placeholder {
+	color: var(--apalah);
+	opacity: 1;
+	font-size: 1rem;
+	padding-left: 2rem;
+}
+
+
+.search-btn {
+	position: absolute;
+	display: block;
+	left: 0.5rem;
+	top: 4.8rem;
+	width: 1.5rem;	
+}
+
+.bg-img {
+	width: 100%;	
+}
+
+.container {
+	padding-left: 16rem;
+	display: flex;
+	align-items: center;
+}
+
+.container .parent-photo {
+	background-color: var(--secondary);
+	transform: translateY(-4rem);
+	max-width: max-content;
+	border-radius: 10%;
+	
+}
+
+.container .parent-photo .profile-photo {
+	border: solid 0.6rem var(--secondary);
+	border-radius: 1rem;
+}
+
+.container .profile-photo .photo {
+	width: 10rem;
+	border-radius: 1rem;
+}
+
+.container .information {
+	margin-left: 3rem;
+	display: flex;
+}
+
+.container .information .card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--primary);
+	color: var(--textcolor);
+	margin: 1rem;
+	transform: translateY(-1.5rem);
+	border-radius: 1rem;
+	white-space: nowrap;
+	padding: 1.5rem;
+
+}
+
+.container .information .card .card-info {
+	display: flex;
+	justify-content: center;
+}
+
+.container .information .card .card-info .info {
+	border-right: 1px solid var(--gaktaugwe) ;
+	padding-right: 1rem;
+	color: var(--gaktaugwe);
+	
+}
+
+.container .information .card .card-info .value {
+	padding-left: 1rem;
+}
+
+.profile-section {
+	transform: translateY(-2rem);
+	padding-left: 16rem;
+}
+
+section h1 {
+	font-size: 2rem;
+	color: var(--textcolor);
+	margin-bottom: 0.5rem;
+	font-weight: 400;
+}
+
+.profile-section h4 {
+	color: var(--textcolor);
+	font-size: 1rem;
+	font-weight: 300;
+	opacity: 0.7;
+}
+
+.main-card {
+	display: grid;
+	grid-template-columns: repeat(2,minmax(0,1fr));
+	grid-template-rows: repeat(2,minmax(0,1fr));
+	padding: 0 16rem;
+	
+}
+
+.main-card .section-card {
+	margin: 2rem 1rem 0 0;
+}
+
+.section-card .section-info {
+	background: rgb(17,23,41);
+	background: linear-gradient(90deg, rgba(17,23,41,1) 0%, rgba(29,27,72,1) 100%); 
+	padding: 1.25rem ;
+	padding-right: 6rem;
+	border-radius: 0.5rem;
+	line-height: 2rem;
+}
+
+.section-card .section-info .section-head {
+	font-weight: 500;
+	font-size: 1.3rem;
+	color: var(--textcolor);
+
+}
+
+.section-card .section-info .section-sub {
+	color: var(--textcolor);
+	font-weight: lighter;
+	font-size: 1rem;
+	opacity: 0.7;
+}
+
+.section-card .section-tag {
+	display: flex;
+	color: var(--textcolor);
+	align-items: center;
+	flex-direction: row;
+	gap: 1rem;
+	justify-content: flex-start;
+	margin-top: 1.3rem;
+}
+
+.section-card .section-tag  .section-ele  {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	gap: 0.25rem;
+	font-size: 1rem;
+	opacity: 0.7;
+}
+
+.section-card .section-tag  .section-ele a {
+	display: flex;
+	align-items: center;
+}
+
+.section-card .section-tag  .section-ele a .logo-section {
+	width: 1.2rem;
+}
+
+.updater {
+	font-size: 0.75rem;
+	margin-left: 2rem;
+	opacity: 0.6;
+}
+
+
+footer {
+	margin: 5rem 0;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	color: var(--textcolor);
+	cursor: pointer;
+}
